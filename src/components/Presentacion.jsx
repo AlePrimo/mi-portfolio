@@ -1,13 +1,15 @@
-import React from 'react';
-import './Secciones.css';
 
-function Presentacion() {
+import React from "react";
+
+function Home() {
   return (
-    <section id="presentacion">
-      <h1>Hola, soy Alejandro</h1>
-      <p>Soy desarrollador Java Backend Jr. en formación, apasionado por la tecnología y con muchas ganas de crecer profesionalmente.</p>
+    <section className="p-8 text-center">
+      <h1 className="text-4xl font-bold mb-4 text-white">¡Hola! Soy Alejandro Carullo</h1>
+      <p className="text-lg text-gray-300">
+        Desarrollador Java Backend Jr. con experiencia en proyectos completos integrando backend con frontend. Apasionado por seguir aprendiendo y construir soluciones funcionales.
+      </p>
     </section>
   );
 }
 
-export default Presentacion;
+export default Home;
