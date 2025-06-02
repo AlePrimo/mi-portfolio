@@ -1,0 +1,12 @@
+section {
+  border-bottom: 1px solid #333;
+}
+
+h1, h2 {
+  color: #00bcd4;
+}
+
+p, li {
+  font-size: 18px;
+  margin: 10px 0;
+}
