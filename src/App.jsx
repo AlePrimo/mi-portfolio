@@ -1,6 +1,8 @@
 
 import React from 'react';
 import './App.css';
+import Certificados from './components/Certificados';
+
 
 const proyectos = [
   {
@@ -119,8 +121,15 @@ function App() {
           {tecnologias.map(tecnologia => (
             <TechCard key={tecnologia.id} tecnologia={tecnologia} />
           ))}
+
+
         </div>
       </section>
+
+
+<Certificados />
+
+
 
       {/* Contacto */}
       <section id="contacto">
