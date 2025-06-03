@@ -44,8 +44,23 @@ const proyectos = [
     descripcion: "Ejemplos y prácticas sobre el uso de Streams en Java.",
     url: "https://github.com/AlePrimo/JAVA-Streams",
     imagen: "https://via.placeholder.com/300x180.png?text=JAVA-Streams"
+  },
+  {
+    id: 7,
+    nombre: "HTML-CSS-Dalto",
+    descripcion: "Prácticas realizadas durante el curso de HTML y CSS de Lucas Dalto.",
+    url: "https://github.com/AlePrimo/HTML-CSS-Dalto",
+    imagen: "https://via.placeholder.com/300x180.png?text=HTML-CSS-Dalto"
+  },
+  {
+    id: 8,
+    nombre: "VSC-Dalto",
+    descripcion: "Configuraciones y ejercicios realizados en Visual Studio Code durante el curso de Dalto.",
+    url: "https://github.com/AlePrimo/VSC-Dalto",
+    imagen: "https://via.placeholder.com/300x180.png?text=VSC-Dalto"
   }
 ];
+
 
 const tecnologias = [
   { id: 1, nombre: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
