@@ -137,4 +137,21 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
+
+  .proyecto-titulo-overlay {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #00fff7;
+    margin-bottom: 10px;
+    text-shadow: 0 0 4px #00fff7;
+  }
+
+.proyecto-nombre {
+  font-size: 1.3rem;
+  color: #00fff7;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #00fff7;
+}
+
 }

@@ -56,7 +56,7 @@ const proyectos = [
     id: 8,
     nombre: "VSC-Dalto",
     descripcion: "Configuraciones y ejercicios realizados en Visual Studio Code durante el curso de Dalto.",
-    url: "https://github.com/AlePrimo/VSC-Dalto",
+    url: "https://github.com/AlePrimo/Visual-Studio-Code",
     imagen: "https://via.placeholder.com/300x180.png?text=VSC-Dalto"
   }
 ];
@@ -71,12 +71,11 @@ const tecnologias = [
   { id: 6, nombre: "Hibernate", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" },
 ];
 
-
 function ProjectCard({ proyecto }) {
   return (
     <div className="card proyecto-card">
-      <img src={proyecto.imagen} alt={proyecto.nombre} />
-      <h3>{proyecto.nombre}</h3>
+      <h3 className="proyecto-nombre">{proyecto.nombre}</h3>
+
       <p>{proyecto.descripcion}</p>
       <a href={proyecto.url} target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
     </div>
