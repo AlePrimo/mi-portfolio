@@ -5,27 +5,57 @@ import './App.css';
 const proyectos = [
   {
     id: 1,
-    nombre: "Proyecto Uno",
-    descripcion: "Descripción breve del proyecto uno.",
-    url: "https://github.com/AlePrimo/proyecto-uno",
-    imagen: "https://via.placeholder.com/300x180.png?text=Proyecto+Uno"
+    nombre: "TaskManagerApp",
+    descripcion: "Aplicación para gestionar tareas, desarrollada con Spring Boot y persistencia en base de datos.",
+    url: "https://github.com/AlePrimo/TaskManagerApp",
+    imagen: "https://via.placeholder.com/300x180.png?text=TaskManagerApp"
   },
   {
     id: 2,
-    nombre: "Proyecto Dos",
-    descripcion: "Descripción breve del proyecto dos.",
-    url: "https://github.com/AlePrimo/proyecto-dos",
-    imagen: "https://via.placeholder.com/300x180.png?text=Proyecto+Dos"
+    nombre: "SecureNotesApp",
+    descripcion: "Aplicación para guardar notas personales aseguradas con Spring Security.",
+    url: "https://github.com/AlePrimo/SecureNotesApp",
+    imagen: "https://via.placeholder.com/300x180.png?text=SecureNotesApp"
   },
-  // ... más proyectos
+  {
+    id: 3,
+    nombre: "SpringBoot-Rest",
+    descripcion: "Proyecto demostrativo de una API RESTful utilizando Spring Boot.",
+    url: "https://github.com/AlePrimo/SpringBoot-Rest",
+    imagen: "https://via.placeholder.com/300x180.png?text=SpringBoot-Rest"
+  },
+  {
+    id: 4,
+    nombre: "Spring-Security-App",
+    descripcion: "Práctica de Spring Security con autorización basada en roles.",
+    url: "https://github.com/AlePrimo/Spring-Security-App",
+    imagen: "https://via.placeholder.com/300x180.png?text=Spring-Security-App"
+  },
+  {
+    id: 5,
+    nombre: "Microservicios",
+    descripcion: "Implementación de una arquitectura de microservicios en Java.",
+    url: "https://github.com/AlePrimo/Microservicios",
+    imagen: "https://via.placeholder.com/300x180.png?text=Microservicios"
+  },
+  {
+    id: 6,
+    nombre: "JAVA-Streams",
+    descripcion: "Ejemplos y prácticas sobre el uso de Streams en Java.",
+    url: "https://github.com/AlePrimo/JAVA-Streams",
+    imagen: "https://via.placeholder.com/300x180.png?text=JAVA-Streams"
+  }
 ];
 
 const tecnologias = [
-  { id: 1, nombre: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { id: 2, nombre: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { id: 3, nombre: "CSS3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  // ... más tecnologías
+  { id: 1, nombre: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+  { id: 2, nombre: "Spring", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+  { id: 3, nombre: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+  { id: 4, nombre: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { id: 5, nombre: "Postman", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
+  { id: 6, nombre: "Hibernate", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" },
 ];
+
 
 function ProjectCard({ proyecto }) {
   return (
