@@ -97,12 +97,14 @@ function App() {
   return (
     <div className="App">
       {/* Presentación */}
-      <header>
-        <h1>Hola, mi nombre es Alejandro Carullo</h1>
-        <p>Con muchos años de trabajo dedicados a Logistica y Distribucion , atencion al cliente y mantenimiento general , gracias a Argentina Programa 4.0
-            donde aprendi desde los fundamentos basicos hasta la creacion de una app funcional , todo en lenguaje Java , consegui mi certificado de Desarrollador Java Full Stack.
-             Luego de esta experiencia decidi enfocarme en el desarrollo BackEnd aprendiendo de forma autodidacta las tecnologias necesarias.</p>
-      </header>
+<header>
+  <h1>Hola, mi nombre es Alejandro Carullo</h1>
+  <p>
+    Con una sólida trayectoria en logística, atención al cliente y mantenimiento, comencé mi camino en el desarrollo de software gracias a <strong>Argentina Programa 4.0</strong>.
+    Allí me formé desde los fundamentos hasta la creación de aplicaciones funcionales en <strong>Java</strong>, obteniendo la certificación como <strong>Desarrollador Java Full Stack</strong>.<br /><br />
+    Desde entonces, me dedico al aprendizaje autodidacta enfocado en el <strong>desarrollo backend</strong>, incorporando tecnologías como <strong>Spring Boot</strong>, <strong>MySQL</strong>, <strong>Hibernate</strong> y más.
+  </p>
+</header>
 
       {/* Proyectos */}
       <section id="proyectos">
