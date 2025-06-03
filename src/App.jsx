@@ -134,7 +134,7 @@ function App() {
       {/* Contacto */}
       <section id="contacto">
         <h2>Contacto</h2>
-        <p>¿Quieres trabajar conmigo? ¡Hablemos!</p>
+        <p>¡Hablemos!</p>
         <p>Email: <a href="email:alejandrojuliancarullo@gmail.com">alejandrojuliancarullo@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/alejandro-carullo-java-dev-jr/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alejandro-carullo-java-dev-jr/</a></p>
       </section>
