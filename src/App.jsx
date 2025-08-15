@@ -60,7 +60,7 @@ const proyectos = [
     descripcion: "Configuraciones y ejercicios realizados en Visual Studio Code durante el curso de Dalto.",
     url: "https://github.com/AlePrimo/Visual-Studio-Code",
     imagen: "https://via.placeholder.com/300x180.png?text=VSC-Dalto"
-  }
+  },
   {
     id: 9,
     nombre: "Nova Store App",
