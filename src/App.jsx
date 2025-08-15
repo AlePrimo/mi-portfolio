@@ -61,6 +61,18 @@ const proyectos = [
     url: "https://github.com/AlePrimo/Visual-Studio-Code",
     imagen: "https://via.placeholder.com/300x180.png?text=VSC-Dalto"
   }
+  {
+    id: 9,
+    nombre: "Nova Store App",
+    descripcion: "Backend completo para e-commerce desarrollado con Spring Boot. Incluye autenticación JWT, gestión de productos, categorías, pedidos, pagos, cupones, wishlist, reseñas y carrito de compras, con documentación Swagger y MySQL.",
+    url: "https://github.com/AlePrimo/Nova-Store-App",
+    imagen: "https://via.placeholder.com/300x180.png?text=Nova+Store+App"
+  }
+
+
+
+
+
 ];
 
 
